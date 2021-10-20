@@ -6,5 +6,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(8080 || process.env.PORT, () => {
+	console.log(process.env.PORT);
 	console.log('app is running');
 });
